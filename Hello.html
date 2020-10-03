@@ -182,11 +182,110 @@ and columns are defined using <tr></tr>, Columns are vertical-->
         </td>
     </tr>
 </table>
+<p align="center"><big>The colours</big></p>
+<!--to change background color of table cell we have to bgcolor attribute-->
+<table border="1" align="center">
+<tr>
+    <td bgcolor="blue">Red</td>
+    <td bgcolor="red">Blue</td>
+    <td bgcolor="yellow">Green</td>
+    </tr>
+
+</table>
+<!-- the <th></th> tags represents the table headers(They are Bold)-->
+<table align="center" border="2">
+<tr>
+    <th>Day</th>
+    <th>Mon</th>
+    <th>Tue</th>
+    <th>Wed</th>
+    <th>Thus</th>
+    <th>Fri</th>
+    </tr>
+<tr>
+    <td>8-8:30</td>
+    <td bgcolor="green">Learn</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+<tr>
+    <td>9-10</td>
+    <td></td>
+    <td bgcolor=red>Practice</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+<tr>
+    <td>1-1:30</td>
+    <td></td>
+    <td></td>
+    <td bgcolor="yellow">Play</td>
+    <td></td>
+    <td></td>
+    </tr>
+<tr>
+    <td>3:45-5</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td bgcolor="orange">Code</td>
+    <td></td>
+    </tr>
+<tr>
+    <td>6-6:15</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td bgcolor="purple">Discuss</td>
+    </tr>
+</table>
+<p align="center" ><big>The div element</big></p>
+<!-- Inline and block elements-->
+<!-- In inline we are going to learn about <div> </div> Element-->
+<!-- the div element covers entire block -->
+<h1>Headline</h1>
+<div style="background-color: navy; color: white; padding: 20px;">
+<p><h3>This is some paragraph</h3></p>
+<p><h3>And this is another one</h3></p>
+</div>
+<!--The Span element-->
+<!--The span element only covers lines-->
+<p align="center"><big>The <span style="color: red">span</span> element</big></p>
+<h2>Some
+<span style="color:red"> Important </span>
+    Text
+</h2>
+<!--Forms-->
+<p align="center" style="color: red"><big>Forms</big></p>
+<!--The html forms are used as a input method in html-->
+<!--They are defined using <form> elements-->
+<!--The method attribute specifies the HTTP method(GET or POST) to be used when form is submited-->
+<!--To take user input, you need the corresponding form elements, such as text field. The input element has many 
+variations depending on the type of attribute like text, password, radio, url, submit, etc-->
+<form>
+    <input type="text" name="Username" placeholder="Username"/><br/>
+    <input type="password" name="Password" placeholder="Password"/>
+</form>
+<p align ="center" style="color: gold"><big>Form Elements</big></p>
+<p>Radio</p>
+<input type="radio" name="gender" value="Male"/>Male<br/>
+<input type="radio" name="gender" value="Female"/>Female<br/>
+<input type="radio" name="gender" value="Transgender"/>Trans<br/>
+<p>Checkbox</p>
+<input type="checkbox" name="gender" value="1"/>Male<br/>
+<input type="checkbox" name="gender" value="2"/>Female<br/>
+<p>Submit</p>
+<input type=submit value="Submit"/>
+<textarea name="message" placeholder="Write your message..."></textarea>
 
 
 
 
-
+<form action="https://google.com" method="get"></form>
 
 
 <p ><h1>Add understandable comments first on tables and lists</h1></p></body>
